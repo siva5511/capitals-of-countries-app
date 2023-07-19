@@ -1,0 +1,95 @@
+/* Write your CSS here */
+
+.selection-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+}
+
+.op-prop {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .header-prop {
+    font-size: 25px;
+  }
+
+  .para-prop {
+    font-weight: 500;
+  }
+
+  #drop-down {
+    border-style: solid;
+    border-color: #;
+    width: 7vw;
+    height: 25px;
+    font-weight: bold;
+  }
+
+  .selection-cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+  }
+
+  .sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f8fafc;
+    width: 60vw;
+    border-radius: 5vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-prop {
+    font-size: 15px;
+  }
+
+  .para-prop {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  #drop-down {
+    border-style: solid;
+    border-color: #;
+    width: 25vw;
+    height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .selection-cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65vw;
+  }
+
+  .sub-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #f8fafc;
+    width: 80vw;
+    border-radius: 5vh;
+  }
+}
